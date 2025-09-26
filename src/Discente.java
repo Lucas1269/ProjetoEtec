@@ -6,11 +6,20 @@ public class Discente extends Pessoa{
 	private int nota3At;
 	private int nota4At;
 
+	//Construtor em branco
 	public Discente(){
 		
 	}
 	
+	public Discente(int n1, int n2, int n3, int n4){
+		this.nota1At = n1;
+		this.nota2At = n2;
+		this.nota3At = n3;
+		this.nota4At = n4;
+	}
+	
 /*
+ 	//Construtores
 	public Discente(int nota1Par, int nota2Par, int nota3Par, int nota4Par,Endereco enderecoPar) {
 		super(nomeAt, idadeAt, enderecoAt);
 		this.nota1At = nota1Par;
