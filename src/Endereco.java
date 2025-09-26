@@ -25,12 +25,12 @@ public void setCidade(String ruaPar){
 this.ruaAt = ruaPar;
 }
 public String getRua(){
-return ruaAt;
+return ruaAt.toUpperCase(); //Tudo Maiúsculo (Método)
 }
 public String getCidade(){
-return cidadeAt;
+return cidadeAt.toUpperCase();
 }
 public String getEstado(){
-return estadoAt;
+return estadoAt.toUpperCase();
 }
 }

@@ -17,7 +17,7 @@ public Pessoa(String nomePar, int idadePar, Endereco ende) {
 }
 //Getters
 public String getNome() { 
-	return nomeAt;
+	return nomeAt.toUpperCase(); // toUpperCase() Método
 }
 public int getIdade() {
 	return idadeAt;
