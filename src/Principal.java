@@ -2,26 +2,18 @@
 public class Principal {
 
 	public static void main(String[] args) {
-		// Objeto = InstÃ¢ncia da Classe
+		// Criar um objeto = instanciar a classe
+		Endereco endereco_1 = new Endereco("RuaUm,", "Assis", "SP"); //Parâmetro Construtor
+		Endereco endereco_2 = new Endereco(); //Parâmetro Construtor
 		
-		Pessoa Victor = new Pessoa();
+		System.out.println(endereco_1.getRua()); //Pegar Informação
+		System.out.println(endereco_1.getCidade());
+		System.out.println(endereco_1.getEstado());
 		
-		Pessoa Luiz = new Pessoa("Luiz", 15);
+		endereco_2.setRua("Rua Luiz");
+		endereco_2.setCidade("Londrina");
 		
-		Pessoa Rafael = new Pessoa();
-		Luiz.setNome("Luiz");
-		Rafael.setNome("Rafael");
-		Rafael.setIdade(16);
-		
-		System.out.println(Victor.getNome()); // sysout + ctrl + space
-		System.out.println(Luiz.getNome());
-		System.out.println(Luiz.getNome());
-		System.out.println(Luiz.getIdade());
-		System.out.println(Victor.getIdade());
-		System.out.println(Victor.getIdade());
-		
-		//input = rafael.getNome();
-		
+		System.out.println(endereco_2.getRua());
+		System.out.println(endereco_2.getCidade());
 	}
-
 }

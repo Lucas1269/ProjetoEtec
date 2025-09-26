@@ -6,13 +6,20 @@ public class Discente extends Pessoa{
 	private int nota3At;
 	private int nota4At;
 
-	public Discente(int nota1Par, int nota2Par, int nota3Par, int nota4Par, String nomePar, int idadePar, Endereco enderecoPar) {
-		super(nomePar, idadePar, enderecoPar);
+	public Discente(){
+		
+	}
+	
+/*
+	public Discente(int nota1Par, int nota2Par, int nota3Par, int nota4Par,Endereco enderecoPar) {
+		super(nomeAt, idadeAt, enderecoAt);
 		this.nota1At = nota1Par;
 		this.nota2At = nota2Par;
 		this.nota3At = nota3Par;
 		this.nota4At = nota4Par;
 	}
+*/
+	
 	//setters:
 	public void setNota1(int notaPar) {
 		this.nota1At = notaPar;

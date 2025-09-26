@@ -10,9 +10,10 @@ public Pessoa() {
 	
 }
 
-public Pessoa(String nomePar, int idadePar) {
+public Pessoa(String nomePar, int idadePar, Endereco ende) {
 	this.nomeAt = nomePar;
 	this.idadeAt = idadePar;
+	this.enderecoAt = ende;
 }
 //Getters
 public String getNome() { 

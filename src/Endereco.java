@@ -12,9 +12,16 @@ this.estadoAt = estadoPar;
 
 }
 
+//Construtor Vazio
+public Endereco(){
+	
+}
+
 //Getters e Setters:
-//Setters:
 public void setRua(String ruaPar){
+this.ruaAt = ruaPar;
+}
+public void setCidade(String ruaPar){
 this.ruaAt = ruaPar;
 }
 public String getRua(){
